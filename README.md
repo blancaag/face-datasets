@@ -38,8 +38,11 @@ http://www.robots.ox.ac.uk/~vgg/data/vgg_face2/
 #### MEMPO
 All the training images of the dataset are obtained from the FDDB, AFLW,  as well as from YouTube (under creative commons license) database. In order to develop a comprehensive benchmark for evaluating 3D facial landmark localisation 
 algorithms in the wild in arbitrary poses, we have fitted with state-of-the-art 3D facial morphable models [4] all the images provided by the 300 W and Menpo challenges. The parameters of the model have been carefully selected and all fittings have been visually inspected. The final landmarks have been manually corrected (if needed). We found that for better 3D face landmark localisation more landmarks are required in the boundary, hence we provide 16 more landmarks. The above data can be used for training models. In summary, for static images we provide (a) the x,y coordinates in the image space that correspond to the projections of a 3D model of the face and (b) x,y,z coordinates of the landmarks in the model space. In total, we provide 84 landmarks. The data are available here: 3D Menpo static. Please see Fig. 1 for the markup and 2 to 8 for some examples.
++
+Furthermore, we provide 3D facial landmarks for all the videos of 300 VW competition. The landmarks in this case have been produced in a more sophisticated way. In short, a non-rigid structure from motion algorithm was used on the original 2D landmarks of the 300 VW competition to get a first estimate of the 3D coordinates. Afterwards, a modified version of [4] was used that fits all the frames of the video simultaneously. Finally, all landmarks have been visually inspected and manually corrected if needed.
 https://ibug.doc.ic.ac.uk/resources
-https://github.com/menpo/lsfm
+https://arxiv.org/pdf/1701.05360.pdf [4]
+https://github.com/menpo/lsfm [4]
 
 #### LS3D-W
 LS3D-W is a large-scale 3D face alignment dataset constructed by annotating the images from AFLW[2], 300VW[3], 300W[4] and FDDB[5] in a consistent manner with 68 points using the automatic method.
