@@ -108,7 +108,7 @@ The real-size masks are obtained using "ThatsMyFace.com". The database additiona
 https://www.idiap.ch/dataset/3dmad
 
 #### EURECOM Kinect Face Dataset (EURECOM KFD)
-
+(applied)
 The Dataset consists of multimodal facial images of 52 people (14 females, 38 males) acquired with a Kinect sensor. The data is captured in two sessions at different intervals (of about two weeks). In each session, 9 facial images are collected from each person according to different facial expressions, lighting and occlusion conditions: neutral, smile, open mouth, left profile, right profile, occluded eyes, occluded mouth, side occlusion with a sheet of paper and light on. An RGB color image, a depth map (provided both as a bitmap depth image and a text file containing the original depth levels sensed by Kinect) as well as the associated 3D data are provided for all samples. In addition, the dataset includes 6 manually labeled landmark positions for every face: left eye, right eye, tip of the nose, left side of mouth, right side of mouth and the chin. Other information, such as gender, year of birth, ethnicity, glasses (whether a person wears glasses or not) and the time of each session are also available.
 http://rgb-d.eurecom.fr/
 
@@ -118,7 +118,23 @@ This unique 3D face database is amongst the largest currently available, contain
 http://www1.uwe.ac.uk/et/mvl/projects/facerecognition.aspx
 http://ieeexplore.ieee.org/document/5981840/?reload=true
 
+#### UMB database of 3D occluded faces
+(applied)
+The University of Milano Bicocca 3D face database is a collection of multimodal (3D + 2D colour images) facial acquisitions. The database is available to universities and research centers interested in face detection, face recognition, face synthesis, etc. The UMB-DB has been acquired with a particular focus on facial occlusions, i.e. scarves, hats, hands, eyeglasses and other types of occlusion wich can occur in real-world scenarios.
 
+143 subjects, (98 male, 45 female; a pair of male twins and a baby included);
+1473 total acquisitions (3D + colour 2D);
+4 facial expressions: neutral, smiling, bored, hungry;
+- 3 neutral acquisition per subject;
+- 1 acquisition per subject for the smiling, bored and hungry expressions.
+883 non-occluded acquisitions;
+590 occluded acquisitions, using various objects:
+http://www.ivl.disco.unimib.it/minisites/umbdb//description.html
+
+#### Texas 3D Face Recognition Database (Texas 3DFRD)
+
+Texas 3D Face Recognition database (Texas 3DFRD) contains 1149 pairs of facial color and range images of 105 adult human subjects. The images were acquired at the company Advanced Digital Imaging Research (ADIR), LLC (Friendswood, TX), formerly a subsidiary of Iris International, Inc. (Chatsworth, CA), with assistance from research students and faculty from the Laboratory for Image and Video Engineering (LIVE) at The University of Texas at Austin. This project was sponsored by the Advanced Technology Program of the National Institute of Standards and Technology (NIST). The database is being made available by Dr. Alan C Bovik at UT Austin. The images were acquired using a stereo imaging system at a high spatial resolution of 0.32 mm. The color and range images were captured simultaneously and thus are perfectly registered to each other. All faces have been normalized to the frontal position and the tip of the nose is positioned at the center of the image. The images are of adult humans from all the major ethnic groups and both genders. For each face, is also available information about the subjects' gender, ethnicity, facial expression, and the locations 25 anthropometric facial fiducial points. These fiducial points were located manually on the facial color images using a computer based graphical user interface. Specific data partitions (training, gallery, and probe) that were employed at LIVE to develop the Anthropometric 3D Face Recognition algorithm are also available.
+http://live.ece.utexas.edu/research/texas3dfr/
 
 ### Others
 #### LSFM (not publicly available)
