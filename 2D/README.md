@@ -1,4 +1,3 @@
-# 2D-3D-face-datasets
 
 http://www.face-rec.org/databases/
 
