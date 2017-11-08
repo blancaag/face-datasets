@@ -2,6 +2,7 @@
 
 ## 1. Morphable Face Models - An Open Framework (2017)
 [downloaded data, model and paper]
+#### project page:
 http://faces.cs.unibas.ch/bfm/ 
 #### papers:
 https://arxiv.org/pdf/1709.08398.pdf
@@ -24,7 +25,10 @@ http://shapemodelling.cs.unibas.ch/StatisticalShapeModelling_2017.html
 
 ## 2. Volumetric Regression Network
 This is an unguided version of the Volumetric Regression Network (VRN) for 3D face reconstruction from a single image. This method approaches the problem of reconstruction as a segmentation problem, producing a 3D volume, spatially aligned with the input image. A mesh can then be obtained by taking the isosurface of this volume.
-
+#### project page:
+http://aaronsplace.co.uk/papers/jackson2017recon/
+#### papers:
+http://aaronsplace.co.uk/papers/jackson2017recon/jackson2017recon.pdf
 #### model/code:
 https://github.com/AaronJackson/vrn
 
