@@ -132,9 +132,17 @@ The University of Milano Bicocca 3D face database is a collection of multimodal 
 http://www.ivl.disco.unimib.it/minisites/umbdb//description.html
 
 #### Texas 3D Face Recognition Database (Texas 3DFRD)
-
+(applied)
 Texas 3D Face Recognition database (Texas 3DFRD) contains 1149 pairs of facial color and range images of 105 adult human subjects. The images were acquired at the company Advanced Digital Imaging Research (ADIR), LLC (Friendswood, TX), formerly a subsidiary of Iris International, Inc. (Chatsworth, CA), with assistance from research students and faculty from the Laboratory for Image and Video Engineering (LIVE) at The University of Texas at Austin. This project was sponsored by the Advanced Technology Program of the National Institute of Standards and Technology (NIST). The database is being made available by Dr. Alan C Bovik at UT Austin. The images were acquired using a stereo imaging system at a high spatial resolution of 0.32 mm. The color and range images were captured simultaneously and thus are perfectly registered to each other. All faces have been normalized to the frontal position and the tip of the nose is positioned at the center of the image. The images are of adult humans from all the major ethnic groups and both genders. For each face, is also available information about the subjects' gender, ethnicity, facial expression, and the locations 25 anthropometric facial fiducial points. These fiducial points were located manually on the facial color images using a computer based graphical user interface. Specific data partitions (training, gallery, and probe) that were employed at LIVE to develop the Anthropometric 3D Face Recognition algorithm are also available.
 http://live.ece.utexas.edu/research/texas3dfr/
+
+#### The Basel Face Model (BFM)
+(2009/2017)
+(downloading)
+The Basel Face Model (BFM) is a 3D Morphable Face Model constructed from 100 male and 100 female example faces. The BFM consists of a generative 3D shape model covering the face surface from ear to ear and a high quality texture model. The model can be used either directly for 2D and 3D face recognition or to generate training and test images for any imaging condition. Hence, in addition to being a valuable model for face analysis it can also be viewed as a meta-database which allows the creation of accurately labeled synthetic training and testing images. To allow for a fair comparison with other algorithms, we provide both the training data set (the BFM) and the model fitting results for several standard image data sets (CMU-PIE, FERET) obtained with our fitting algorithm. The BFM web page additionally provides a set of registered scans of ten individuals, together with a set of 270 renderings of these individuals with systematic pose and light variations. These scans are not included in the training set of the BFM and form a standardized test set with a ground truth for pose and illumination.
+http://faces.cs.unibas.ch/bfm/
+http://gravis.dmi.unibas.ch/PMM/
+#### !!!! check github models
 
 ### Others
 #### LSFM (not publicly available)
