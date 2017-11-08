@@ -107,6 +107,19 @@ The real-size masks are obtained using "ThatsMyFace.com". The database additiona
 
 https://www.idiap.ch/dataset/3dmad
 
+#### EURECOM Kinect Face Dataset (EURECOM KFD)
+
+The Dataset consists of multimodal facial images of 52 people (14 females, 38 males) acquired with a Kinect sensor. The data is captured in two sessions at different intervals (of about two weeks). In each session, 9 facial images are collected from each person according to different facial expressions, lighting and occlusion conditions: neutral, smile, open mouth, left profile, right profile, occluded eyes, occluded mouth, side occlusion with a sheet of paper and light on. An RGB color image, a depth map (provided both as a bitmap depth image and a text file containing the original depth levels sensed by Kinect) as well as the associated 3D data are provided for all samples. In addition, the dataset includes 6 manually labeled landmark positions for every face: left eye, right eye, tip of the nose, left side of mouth, right side of mouth and the chin. Other information, such as gender, year of birth, ethnicity, glasses (whether a person wears glasses or not) and the time of each session are also available.
+http://rgb-d.eurecom.fr/
+
+#### PhotoFace: Face recognition using photometric stereo
+(applied)
+This unique 3D face database is amongst the largest currently available, containing 3187 sessions of 453 subjects, captured in two recording periods of approximately six months each. The Photoface device was located in an unsupervised corridor allowing real-world and unconstrained capture. Each session comprises four differently lit colour photographs of the subject, from which surface normal and albedo estimations can be calculated (photometric stereo Matlab code implementation included). This allows for many testing scenarios and data fusion modalities. Eleven facial landmarks have been manually located on each session for alignment purposes. Additionally, the Photoface Query Tool is supplied (implemented in Matlab), which allows for subsets of the database to be extracted according to selected metadata e.g. gender, facial hair, pose, expression.
+http://www1.uwe.ac.uk/et/mvl/projects/facerecognition.aspx
+http://ieeexplore.ieee.org/document/5981840/?reload=true
+
+
+
 ### Others
 #### LSFM (not publicly available)
 LSFM is the largest-scale 3D Morphable Model (3DMM) of facial shapes ever constructed, based on a dataset of around 10,000 distinct facial identities from a huge range of gender, age and ethnicity combinations.
