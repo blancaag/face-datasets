@@ -43,8 +43,27 @@ https://github.com/anhttran/3dmm_cnn/
 
 Note that this project's 3DMM is (1).
 
+## 4. Surrey 3DMM face models
+3D morphable face models created at the Centre of Vision, Speech and Signal Processing at the University of Surrey. The models are available in these resolutions: 29587, 16759, 3448 and 1724 vertices. They are also available as either shape only, or shape + texture.  
+#### project page:
+http://cvssp.org/faceweb/3dmm/facemodels/
+#### model/code:
+https://github.com/patrikhuber/eos
+
+## n/a. Large Scale Facial Model (LSFM)
+The Large Scale Facial Model (LSFM) is a 3D statstical model of facial shape built from nearly 10,000 individuals.
+#### project page:
+https://ibug.doc.ic.ac.uk/resources/lsfm/
+#### papers:
+https://link.springer.com/content/pdf/10.1007%2Fs11263-017-1009-7.pdf
+#### model(n.a.)/code(for training the model):
+https://github.com/menpo/lsfm
+
 
 
 # Tools
 ## menpo3d - Tools for manipulating meshes
 https://github.com/menpo/menpo3d
+
+
+
