@@ -38,6 +38,7 @@ http://www.robots.ox.ac.uk/~vgg/data/vgg_face2/
 (paper - https://arxiv.org/abs/1710.08092)
 
 ## 3D
+http://areeweb.polito.it/ricerca/cgvg/3DDB.html
 
 ### Landmarks
 #### MEMPO
@@ -113,7 +114,7 @@ The Dataset consists of multimodal facial images of 52 people (14 females, 38 ma
 http://rgb-d.eurecom.fr/
 
 #### PhotoFace: Face recognition using photometric stereo
-(applied)
+(applying)
 This unique 3D face database is amongst the largest currently available, containing 3187 sessions of 453 subjects, captured in two recording periods of approximately six months each. The Photoface device was located in an unsupervised corridor allowing real-world and unconstrained capture. Each session comprises four differently lit colour photographs of the subject, from which surface normal and albedo estimations can be calculated (photometric stereo Matlab code implementation included). This allows for many testing scenarios and data fusion modalities. Eleven facial landmarks have been manually located on each session for alignment purposes. Additionally, the Photoface Query Tool is supplied (implemented in Matlab), which allows for subsets of the database to be extracted according to selected metadata e.g. gender, facial hair, pose, expression.
 http://www1.uwe.ac.uk/et/mvl/projects/facerecognition.aspx
 http://ieeexplore.ieee.org/document/5981840/?reload=true
@@ -138,11 +139,47 @@ http://live.ece.utexas.edu/research/texas3dfr/
 
 #### The Basel Face Model (BFM)
 (2009/2017)
-(downloading)
+(downloded)
 The Basel Face Model (BFM) is a 3D Morphable Face Model constructed from 100 male and 100 female example faces. The BFM consists of a generative 3D shape model covering the face surface from ear to ear and a high quality texture model. The model can be used either directly for 2D and 3D face recognition or to generate training and test images for any imaging condition. Hence, in addition to being a valuable model for face analysis it can also be viewed as a meta-database which allows the creation of accurately labeled synthetic training and testing images. To allow for a fair comparison with other algorithms, we provide both the training data set (the BFM) and the model fitting results for several standard image data sets (CMU-PIE, FERET) obtained with our fitting algorithm. The BFM web page additionally provides a set of registered scans of ten individuals, together with a set of 270 renderings of these individuals with systematic pose and light variations. These scans are not included in the training set of the BFM and form a standardized test set with a ground truth for pose and illumination.
 http://faces.cs.unibas.ch/bfm/
 http://gravis.dmi.unibas.ch/PMM/
 #### !!!! check github models
+
+#### The Bosphorus Database
+(registered - applying)
+The Bosphorus Database is a new 3D face database that includes a rich set of expressions, systematic variation of poses and different types of occlusions. This database is unique from three aspects: (1) The facial expressions are composed of judiciously selected subset of Action Units as well as the six basic emotions, and many actors/actresses are incorporated to obtain more realistic expression data; (2) A rich set of head pose variations are available; (3) Different types of face occlusions are included. Hence, this new database can be a very valuable resource for development and evaluation of algorithms on face recognition under adverse conditions and facial expression analysis as well as for facial expression synthesis.
+The Bosphorus Database is intended for research on 3D and 2D human face processing tasks including expression recognition, facial action unit detection, facial action unit intensity estimation, face recognition under adverse conditions, deformable face modeling, and 3D face reconstruction. There are 105 subjects and 4666 faces in the database. This database is unique in three aspects:
+
+1) Rich repertoire of expressions:
+- Up to 35 expressions per subject
+- FACS scoring (includes intensity and asymmetry codes for each AU)
+- One third of the subjects are professional actors/actresses
+2) Systematic head poses (13 yaw and pitch rotations)
+3) Varieties of face occlusions (beard & moustache, hair, hand, eyeglasses)
+Data Acquisition:
+Facial data are acquired using structured-light based 3D system. Acquisitions are single view, and subjects were made to sit at a distance of about 1.5 meters away from the 3D digitizer. The sensor resolution in x, y & z (depth) dimensions are 0.3mm, 0.3mm and 0.4mm respectively, and colour texture images are high resolution (1600x1200 pixels). A 1000W halogen lamp was used in a dark room to obtain homogeneous lighting for good quality texture images.
+http://bosphorus.ee.boun.edu.tr/register.aspx?returnurl=http%3a%2f%2fbosphorus.ee.boun.edu.tr%2fhowtoobtain.aspx
+
+#### BJUT-3D Chinese Face Database
+(research access)
+The BJUT-3D is a three dimension face database including 500 Chinese persons. There are 250 females and 250 males in the database. Everyone has a 3D face data with neutral expression and without accessories. Original high-resolution 3D face data is acquired by the CyberWare 3D scanner in given environment, Every 3D face data has been preprocessed, and cut the redundant parts. Now the face database is available for research purpose only. The Multimedia and Intelligent Software Technology Beijing Municipal Key Laboratory in Beijing University of Technology is serving as the technical agent for distribution of the database and reserves the copyright of all the data in the database.
+
+#### FRAV3D Database
+(research access)
+This database contains 106 subjects, with approximately one woman every three men. The data were acquired with a Minolta VIVID 700 scanner, which provides texture information (2D image) and a VRML file (3D image). If needed, the corresponding range data (2.5D image) can be computed by means of the VRML file. Therefore, it is a multimodal database (2D, 2.5D y 3D). During all time, a strict acquisition protocol was followed, with controlled lighting conditions. The person sat down on an adjustable stool opposite the scanner and in front of a blue wall. No glasses, hats or scarves were allowed. A total of 16 captures per person were taken in every session, with different poses and lighting conditions, trying to cover all possible variations, including turns in different directions, gestures and lighting changes. In every case only one parameter was modified between two captures. This is one of the main advantages of this database, respect to others. This database is delivered for free exclusively for research purposes.
+
+#### 3D_RMA database
+(research access)
+The 3D_RMA database is a collection of two sessions (Nov 1997 and Jan 1998) consisting of 120 persons. For each session, three shots were recorded with different (but limited) orientations of the head. Details about the population and typical problems affecting the quality are given in the referred link. 3D was captured thanks to a first prototype of a proprietary system based on structured light (analog camera!). The quality was limited but sufficient to show the ability of 3D face recognition. For privacy reasons, the texture images are not made available. In the period 2003-2008, this database has been downloaded by about 100 researchers. A few papers present recognition results with the database (like, of course, papers from the author).
+
+#### GavabDB: 3D face database, GAVAB research group, Universidad Rey Juan Carlos, Spain
+(research access)
+GavabDB is a 3D face database. It contains 549 three-dimensional images of facial surfaces. These meshes correspond to 61 different individuals (45 male and 16 female) having 9 images for each person. The total of the individuals are Caucasian and their age is between 18 and 40 years old. Each image is given by a mesh of connected 3D points of the facial surface without texture. The database provides systematic variations with respect to the pose and the facial expression. In particular, the 9 images corresponding to each individual are: 2 frontal views with neutral expression, 2 x-rotated views (ą30o, looking up and looking down respectively) with neutral expression, 2 y-rotated views (ą90o, left and right profiles respectively) with neutral expression and 3 frontal gesture images (laugh, smile and a random gesture chosen by the user, respectively).
+
+#### The Extended M2VTS Database, University of Surrey, UK
+(pay dataset)
+Contains four recordings of 295 subjects taken over a period of four months. Each recording contains a speaking head shot and a rotating head shot. Sets of data taken from this database are available including high quality colour images, 32 KHz 16-bit sound files, video sequences and a 3D model.
+http://www.ee.surrey.ac.uk/CVSSP/xm2vtsdb/
 
 ### Others
 #### LSFM (not publicly available)
