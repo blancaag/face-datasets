@@ -54,12 +54,22 @@ https://github.com/patrikhuber/eos
 The Large Scale Facial Model (LSFM) is a 3D statstical model of facial shape built from nearly 10,000 individuals.
 #### project page:
 https://ibug.doc.ic.ac.uk/resources/lsfm/
-#### papers:
+#### papers (check last):
+https://spiral.imperial.ac.uk/bitstream/10044/1/45997/7/art%253A10.1007%252Fs11263-017-1009-7.pdf
 https://link.springer.com/content/pdf/10.1007%2Fs11263-017-1009-7.pdf
+https://ibug.doc.ic.ac.uk/media/uploads/documents/ijcv-16_(1).pdf
+http://www.sciencemag.org/news/2017/05/computer-scientists-have-created-most-accurate-digital-model-human-face-here-s-what-it
 #### model(n.a.)/code(for training the model):
 https://github.com/menpo/lsfm
 
 
+##### to-review:
+https://arxiv.org/pdf/1701.05360.pdf
+https://github.com/anilbas/3DMMasSTN
+http://openaccess.thecvf.com/content_cvpr_2017/papers/Booth_3D_Face_Morphable_CVPR_2017_paper.pdf
+http://openaccess.thecvf.com/content_ICCV_2017/papers/Dai_A_3D_Morphable_ICCV_2017_paper.pdf
+
+http://publications.idiap.ch/downloads/papers/2017/Yu_FG2017_2017.pdf
 
 # Tools
 ## menpo3d - Tools for manipulating meshes
