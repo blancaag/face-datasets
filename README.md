@@ -76,13 +76,48 @@ The Florence Superface dataset comprises low-resolution and high-resolution 3D s
 - A 3D high-resolution face scan acquired with the 3dMD scanner: 3D mesh with about 40,000 vertices and 80,000 facets; texture stereo image with a resolution of 3341 x 2027 pixels. The geometry of the mesh is highly accurate with an average RMS error of about 0.2mm or better (VRML format).
 https://www.micc.unifi.it/resources/datasets/florence-superface/
 
+#### DMCSv1 (Multimodal Biometric Database of 3D Face and Hand Scans)
+The database contains 3D face and hand scans. Its core elements comprise two 3D scanning heads performing measurements using the structured light technology.The DMCSv1 database was collected in two sessions. Time interval between the sessions was approximately 2 weeks and varied depending on an individual. 
+Number of individuals 	35
+Number of sessions 	2
+Total number of face scans 	35 x 15 x 2 = 1050
+Files format 	.ply (binary)
+For each acquisition the following point clouds were collected:
+- scan from the first scanning head
+- scan from the second scanning head
+- merged scans from the scanning heads
+- preprocessed and merged scans from the scanning heads
+
 ### Others
 #### LSFM (not publicly available)
 LSFM is the largest-scale 3D Morphable Model (3DMM) of facial shapes ever constructed, based on a dataset of around 10,000 distinct facial identities from a huge range of gender, age and ethnicity combinations.
 
-https://ibug.doc.ic.ac.uk/resources/lsfm/ (not available for a 'non-research' dataset)
+https://ibug.doc.ic.ac.uk/resources/lsfm/ (not available for 'non-research' purposes)
 https://github.com/menpo/lsfm
 https://link.springer.com/content/pdf/10.1007%2Fs11263-017-1009-7.pdf
+
+Next three DB - not public: pricing below
+http://www.cs.binghamton.edu/~lijun/Research/3DFE/3DFE_Analysis.html
+
+#### BU-3DFE Database (Static Data)
+BU-3DFE (Binghamton University 3D Facial Expression) includes 100 subjects with 2,500 facial expression models. The BU-3DFE database is available to the research community (e.g., areas of interest come from as diverse as affective computing, computer vision, human computer interaction, security, biomedicine, law-enforcement, and psychology). The database contains 100 subjects (56% female, 44% male), ranging age from 18 years to 70 years old, with a variety of ethnic/racial ancestries, including White, Black, East-Asian, Middle-east Asian, Indian, and Hispanic Latino.
+
+#### BU-4DFE Database (Dynamic Data)
+To analyze the facial behavior from a static 3D space to a dynamic 3D space, BU-3DFE Database is extended and a new database is formed: BU-4DFE (3D + time): A 3D Dynamic Facial Expression Database. A newly created high-resolution 3D dynamic facial expression database are presented, which is made available to the scientific research community. The 3D facial expressions are captured at a video rate (25 frames per second). For each subject, there are six model sequences showing six prototypic facial expressions (anger, disgust, happiness, fear, sadness, and surprise), respectively. Each expression sequence contains about 100 frames. The database contains 606 3D facial expression sequences captured from 101 subjects, with a total of approximately 60,600 frame models. Each 3D model of a 3D video sequence has the resolution of approximately 35,000 vertices. The texture video has a resolution of about 1040×1329 pixels per frame. The resulting database consists of 58 female and 43 male subjects, with a variety of ethnic/racial ancestries, including Asian, Black, Hispanic/Latino, and White.
+
+#### BP4D-Spontanous Database
+Because posed and un-posed (aka “spontaneous”) 3D facial expressions differ along several dimensions including complexity and timing, well-annotated 3D video of un-posed facial behavior is needed. Therefore, newly developed 3D video database of spontaneous facial expressions in a diverse group of young adults is introduced - BP4D-Spontanous: Binghamton-Pittsburgh 3D Dynamic Spontaneous Facial Expression Database. Well-validated emotion inductions were used to elicit expressions of emotion and paralinguistic communication. Frame-level ground-truth for facial actions was obtained using the Facial Action Coding System. Facial features were tracked in both 2D and 3D domains using both person-specific and generic approaches. The work promotes the exploration of 3D spatiotemporal features in subtle facial expression, better understanding of the relation between pose and motion dynamics in facial action units, and deeper understanding of naturally occurring facial action. The database includes 41 participants (23 women, 18 men). They were 18-29 years of age; 11 were Asian, 6 were African-American, 4 were Hispanic, and 20 were Euro-American. An emotion elicitation protocol was designed to elicit emotions of participants effectively. Eight tasks were covered with an interview process and a series of activities to elicit eight emotions. The database is structured by participants. Each participant is associated with 8 tasks. For each task, there are both 3D and 2D videos. As well, the metadata include manually annotated action units (FACS AU), automatically tracked head pose and 2D/3D facial landmarks. The database is in the size of about 2.6 TB (without compression).
+
+
+
+
+
+
+
+
+
+
+
 
 3DMM models:
 
