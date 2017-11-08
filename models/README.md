@@ -1,6 +1,7 @@
-# 3DMM models:
+# 3DMM models
 
-## Morphable Face Models - An Open Framework (2017) [downloaded data, model and paper]
+## 1. Morphable Face Models - An Open Framework (2017)
+[downloaded data, model and paper]
 http://faces.cs.unibas.ch/bfm/ 
 #### papers:
 https://arxiv.org/pdf/1709.08398.pdf
@@ -17,25 +18,27 @@ A tool to view the model can be downloaded under https://github.com/unibas-gravi
 For model based face image analysis you can use our model adaptation framework Scalismo-faces (https://github.com/unibas-gravis/scalismo-faces).
 To get started with our software we prepared tutorials (http://gravis.dmi.unibas.ch/PMM/).
 #### other learning resources:
+http://gravis.dmi.unibas.ch/PMM/
 http://shapemodelling.cs.unibas.ch/StatisticalShapeModelling_2017.html
 
-## Volumetric Regression Network
+
+## 2. Volumetric Regression Network
 This is an unguided version of the Volumetric Regression Network (VRN) for 3D face reconstruction from a single image. This method approaches the problem of reconstruction as a segmentation problem, producing a 3D volume, spatially aligned with the input image. A mesh can then be obtained by taking the isosurface of this volume.
 
 #### model/code:
 https://github.com/AaronJackson/vrn
 
 
-## Regressing Robust and Discriminative 3D Morphable Models with a very Deep Neural Network
+## 3. Regressing Robust and Discriminative 3D Morphable Models with a very Deep Neural Network (ResNet-101 for 3DMM Regression)
 From this page you can download the ConvNet used in our paper [1] to regress discriminative 3D Morphable Model parameters for face shape and texture, directly from image intensities. The ConvNet is a ResNet 101 model based on [2].
 #### project page:
 http://www.openu.ac.il/home/hassner/projects/CNN3DMM/
 #### model/code:
 https://gist.github.com/iacopomasi/0646722f97fb087926a16b7e044ed6ed
-
-
-http://www.openu.ac.il/home/hassner/projects/CNN3DMM/
 https://github.com/anhttran/3dmm_cnn/
+
+Note that this project's 3DMM is (1).
+
 
 
 # Tools
