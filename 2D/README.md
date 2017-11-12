@@ -1,7 +1,7 @@
 
 http://www.face-rec.org/databases/
 
-## 2D
+## 2D (incomplete - WIP)
 
 #### WIDER FACE
 http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/index.html
